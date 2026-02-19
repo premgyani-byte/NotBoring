@@ -9,9 +9,6 @@ STRATEGY: Pydantic v1.10.15 (Android/Buildozer Compatibility)
 from pydantic import BaseModel, Field, root_validator
 from typing import Optional
 
-
-
-class AppConfig(BaseModel):
     # =================================================================
     # !!! SENSITIVE DATA - DO NOT COPY/PASTE FOR ANALYSIS !!!
     # =================================================================
