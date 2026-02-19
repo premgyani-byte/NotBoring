@@ -15,10 +15,15 @@ class AppConfig(BaseModel):
     # =================================================================
     # !!! SENSITIVE DATA - DO NOT COPY/PASTE FOR ANALYSIS !!!
     # =================================================================
-    AI_KEY = "AIzaSyATQLT_eYrQyd5i_YF0nQs-HQT39rW7vTM"
-    SS_ID = "17qAoBsYn11CkZohNR6aSpu0Rb_JvrETRrIusgHt3AGU"
-    PREM_EMAIL = "premgyani@gmail.com"
-    LOCK_PASSWORD = "PASSWORD"  # Default password as per spec
+class AppConfig(BaseModel):
+    # =================================================================
+    # !!! SENSITIVE DATA - NOW WITH TYPE HINTS !!!
+    # =================================================================
+    AI_KEY: str = "AIzaSyATQLxxxxxxxxxxxxxxxxxxxxxxxx" # Added : str
+    SS_ID: str = "17qAoBsYn11CkZohNR6aSpu0Rb_JvrETRrIusgHt3AGU" # Added : str
+    PREM_EMAIL: str = "premgyani@gmail.com" # Added : str
+    LOCK_PASSWORD: str = "PASSWORD" # Added : str
+    # =================================================================
     # =================================================================
     # --- Version Control & Security ---
     version: str = "0.24.1"
