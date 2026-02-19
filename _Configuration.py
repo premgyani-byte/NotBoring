@@ -39,7 +39,7 @@ class AppConfig(BaseModel):
     TEST_MODE: bool = True
     
     # --- AI & Persona (Rupert) ---
-    AI_MODEL_NAME: str = "gemini-1.5-flash"
+    AI_MODEL_NAME: str = "gemini-2.5-flash-lite"
     MAX_TALK_TIME: int = 180  # seconds
     MIN_TALK_TIME: int = 30   # seconds
     DELIVER_NUMBER_SEGMENTS: int = 1
