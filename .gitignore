@@ -12,3 +12,4 @@ bin/
 # Local configuration with private keys
 # (Uncomment the line below if you want to keep your keys ONLY on your laptop)
 _Configuration.py
+
