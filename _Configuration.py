@@ -9,16 +9,17 @@ STRATEGY: Pydantic v1.10.15 (Android/Buildozer Compatibility)
 from pydantic import BaseModel, Field, root_validator
 from typing import Optional
 
-# =================================================================
-# !!! SENSITIVE DATA - DO NOT COPY/PASTE FOR ANALYSIS !!!
-# =================================================================
-AI_KEY = "AIzaSyATQLT_eYrQyd5i_YF0nQs-HQT39rW7vTM"
-SS_ID = "17qAoBsYn11CkZohNR6aSpu0Rb_JvrETRrIusgHt3AGU"
-PREM_EMAIL = "premgyani@gmail.com"
-LOCK_PASSWORD = "PASSWORD"  # Default password as per spec
-# =================================================================
+
 
 class AppConfig(BaseModel):
+    # =================================================================
+    # !!! SENSITIVE DATA - DO NOT COPY/PASTE FOR ANALYSIS !!!
+    # =================================================================
+    AI_KEY = "AIzaSyATQLT_eYrQyd5i_YF0nQs-HQT39rW7vTM"
+    SS_ID = "17qAoBsYn11CkZohNR6aSpu0Rb_JvrETRrIusgHt3AGU"
+    PREM_EMAIL = "premgyani@gmail.com"
+    LOCK_PASSWORD = "PASSWORD"  # Default password as per spec
+    # =================================================================
     # --- Version Control & Security ---
     version: str = "0.24.1"
     password_lock: str = LOCK_PASSWORD
