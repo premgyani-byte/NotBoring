@@ -1,0 +1,14 @@
+# Google Service Account Credentials
+service_account.json
+
+# Python environment/cache
+__pycache__/
+*.pyc
+
+# Android Build JUNK
+.buildozer/
+bin/
+
+# Local configuration with private keys
+# (Uncomment the line below if you want to keep your keys ONLY on your laptop)
+# _Configuration.py
