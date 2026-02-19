@@ -16,7 +16,7 @@ class AppConfig(BaseModel):
     # =================================================================
     # !!! SENSITIVE DATA - NOW WITH TYPE HINTS !!!
     # =================================================================
-    AI_KEY: str = "AIzaSyAgpnR_Z8Jp0bsrCn2N81McbDRsKZ33bo8" # Added : str
+    AI_KEY: str = "AIzaSyA-uHNMhKI8akyReRGZMc9HkJ2_XLqcyWM" # Added : str
     SS_ID: str = "17qAoBsYn11CkZohNR6aSpu0Rb_JvrETRrIusgHt3AGU" # Added : str
     PREM_EMAIL: str = "premgyani@gmail.com" # Added : str
     LOCK_PASSWORD: str = "PASSWORD" # Added : str
